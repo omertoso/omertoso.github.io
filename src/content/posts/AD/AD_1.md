@@ -1,5 +1,5 @@
 ---
-title: AD（Active Directory） 企业组网络
+title: AD（Active Directory）管理
 published: 2024-12-12
 description: ''
 image: ''
