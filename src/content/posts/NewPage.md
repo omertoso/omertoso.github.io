@@ -1,14 +1,13 @@
 ---
-title: NewPage1
+title: MDT搭建
 published: 2024-12-12
 description: ''
 image: ''
-tags: [测试标签]
+tags: [system]
 category: ''
 draft: false 
-lang: ''
+lang: 'system'
 ---
 
-# Something
+# MDT是什么
 
-Elpcoin

@@ -6,10 +6,10 @@ image: ''
 tags: [AD]
 category: ''
 draft: false 
-lang: 'AD'
+lang: 'system'
 ---
 
-link
+Link & Book
 
 - [Microsoft Search AD](https://learn.microsoft.com/zh-cn/credentials/applied-skills/administer-active-directory-domain-services/)
   - 部署和管理 Active Directory 域服务域控制器
@@ -17,7 +17,8 @@ link
   - 在 Active Directory 中创建和配置组策略对象
   - 管理 Active Directory 中的安全性
   - [引导式项目 - 管理 Active Directory 域服务
-
+- [服务器配置与应用 Server 2008 R2](https://weread.qq.com/web/reader/51132c2059ff2d51101250c)
+- [网络操作系统教程：Windows Server 2016管理与配置](https://weread.qq.com/web/reader/9b7325b07277b17b9b71c38)
 
 # What is AD ?
 
