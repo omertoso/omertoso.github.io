@@ -3,7 +3,7 @@ title: 配置 LAPS 实现本地 Administrator 密码滚动
 published: 2024-12-22
 description: ''
 image: ''
-tags: [PowerShell]
+tags: [LAPS]
 category: Windows Server
 draft: false 
 ---
