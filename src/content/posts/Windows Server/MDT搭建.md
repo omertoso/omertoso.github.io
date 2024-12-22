@@ -1,5 +1,5 @@
 ---
-title: MDT搭建
+title: MDT 搭建
 published: 2024-12-12
 description: ''
 image: ''
@@ -18,7 +18,7 @@ MDT 是自动执行桌面和服务器部署的工具、流程和指南的统一�
 - 导入ISO、驱动库
 - 配置任务队列
 
-
+---
 
 参考：
 
