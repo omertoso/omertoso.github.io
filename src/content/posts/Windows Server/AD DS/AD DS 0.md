@@ -3,8 +3,8 @@ title: AD（Active Directory）管理
 published: 2024-12-12
 description: ''
 image: ''
-tags: [AD]
-category: System
+tags: [AD DS]
+category: Windows System
 draft: false 
 ---
 

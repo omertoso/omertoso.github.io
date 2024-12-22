@@ -3,8 +3,8 @@ title: MDT搭建
 published: 2024-12-12
 description: ''
 image: ''
-tags: [system]
-category: System
+tags: [MDT]
+category: Windows System
 draft: false 
 ---
 
