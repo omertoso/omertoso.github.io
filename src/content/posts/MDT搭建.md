@@ -4,9 +4,8 @@ published: 2024-12-12
 description: ''
 image: ''
 tags: [system]
-category: ''
+category: System
 draft: false 
-lang: 'system'
 ---
 
 # MDT是什么
