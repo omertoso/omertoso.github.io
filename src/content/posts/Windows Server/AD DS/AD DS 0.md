@@ -8,7 +8,8 @@ category: Windows System
 draft: false 
 ---
 
-:::tip :::
+:::tip
+:::
 
 - [Microsoft Search AD](https://learn.microsoft.com/zh-cn/credentials/applied-skills/administer-active-directory-domain-services/)
   - 部署和管理 Active Directory 域服务域控制器
