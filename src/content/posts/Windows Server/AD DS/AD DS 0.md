@@ -9,6 +9,7 @@ draft: false
 ---
 
 :::tip
+Optional information to help a user be more successful.
 :::
 
 - [Microsoft Search AD](https://learn.microsoft.com/zh-cn/credentials/applied-skills/administer-active-directory-domain-services/)
