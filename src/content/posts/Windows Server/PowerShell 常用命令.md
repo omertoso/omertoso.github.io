@@ -4,7 +4,7 @@ published: 2024-12-22
 description: ''
 image: ''
 tags: [PowerShell]
-category: Windows System
+category: Windows Server
 draft: false 
 
 ---

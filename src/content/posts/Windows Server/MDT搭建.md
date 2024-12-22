@@ -4,7 +4,7 @@ published: 2024-12-12
 description: ''
 image: ''
 tags: [MDT]
-category: Windows System
+category: Windows Server
 draft: false 
 ---
 
