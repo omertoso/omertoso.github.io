@@ -2,7 +2,7 @@
 title: Prometheus
 published: 2024-12-24
 description: ''
-image: ""
+image: "./Prometheus.png"
 tags: ['Prometheus']
 category: '运维监控'
 draft: false 
