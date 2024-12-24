@@ -1,10 +1,10 @@
 ---
 title: Prometheus
 published: 2024-12-24
-description:
-timage: "./Prometheus.png"
-tags: [ 'Prometheus']
-category：'运维监控'
+description: "How to use this blog template."
+image: ""
+tags: [Markdown]
+category: Examples
 draft: false
 lang: "'
 ---
