@@ -2,7 +2,7 @@
 title: Ngnix123
 published: 2024-12-23
 description: ''
-image: ''
+image: './Prometheus.png'
 tags: ['Ngnix']
 category: 'Linux'
 draft: false 
