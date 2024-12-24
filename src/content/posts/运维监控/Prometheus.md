@@ -101,4 +101,3 @@ brew services start prometheus
 
 1. [Prometheus 中文文档](https://www.prometheus.wang)
 1. [prometheus.io](https://prometheus.io/docs/introduction/overview/)
-1. 
