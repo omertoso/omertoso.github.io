@@ -1,10 +1,10 @@
 ---
-title: Ngnix123
-published: 2024-12-23
+title: Prometheus
+published: 2024-12-24
 description: ''
 image: './Prometheus.png'
-tags: ['Ngnix']
-category: 'Linux'
+tags: ['Prometheus']
+category: '运维监控'
 draft: false 
 lang: ''
 ---
