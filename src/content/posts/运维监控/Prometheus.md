@@ -1,12 +1,12 @@
 ---
-title: Prometheus
-published: 2024-12-24
-description: "How to use this blog template."
-image: ""
-tags: [Markdown]
-category: Examples
-draft: false
-lang: "'
+title: Ngnix123
+published: 2024-12-23
+description: ''
+image: ''
+tags: ['Ngnix']
+category: 'Linux'
+draft: false 
+lang: ''
 ---
 
 # Prometheus
