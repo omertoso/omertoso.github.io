@@ -1,12 +1,12 @@
 ---
 title: Prometheus
 published: 2024-12-24
-description: ''
-image: "./p1.png"
-tags: ['Prometheus']
-category: '运维监控'
-draft: false 
-lang: ''
+description:
+timage: "./Prometheus.png"
+tags: [ 'Prometheus']
+category：'运维监控'
+draft: false
+lang: "'
 ---
 
 # Prometheus
