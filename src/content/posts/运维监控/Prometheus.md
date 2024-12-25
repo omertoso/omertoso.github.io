@@ -88,7 +88,7 @@ brew services start prometheus
 ## **配置 yml** 
 
 配置前可以访问 node exporter 的 http://localhost:9100/metrics 查看是否启动
-```
+```shell
 scrape_configs:
   - job_name: 'prometheus'
     static_configs:
