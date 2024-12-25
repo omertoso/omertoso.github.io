@@ -1,5 +1,5 @@
 ---
-title: Prometheus和Grafana
+title: Prometheus + Grafana
 published: 2024-12-24
 description: ''
 image: './Prometheus.png'
