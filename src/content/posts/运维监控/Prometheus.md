@@ -1,5 +1,5 @@
 ---
-title: Prometheus + Grafana
+title: Prometheus和Grafana
 published: 2024-12-24
 description: ''
 image: './Prometheus.png'
@@ -87,7 +87,7 @@ brew services start prometheus
 
 ## **配置 yml** 
 
- 配置钱前可以访问 node exporter 的 http://localhost:9100/metrics 查看是否启动
+配置前可以访问 node exporter 的 http://localhost:9100/metrics 查看是否启动
 ```
 scrape_configs:
   - job_name: 'prometheus'
