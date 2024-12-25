@@ -1,5 +1,5 @@
 ---
-title: Prometheus
+title: Prometheus + Grafana
 published: 2024-12-24
 description: ''
 image: './Prometheus.png'
@@ -24,7 +24,7 @@ lang: ''
 
 **适用场景**：适合实时监控、容器和微服务监控、时序数据分析，特别是在云环境和分布式系统中。
 
-下图表示了 Prometheus 的基本架构
+Prometheus 的基本架构
 
 ![Prometheus](./Prometheus.png)
 
@@ -32,7 +32,7 @@ lang: ''
 
 ## 安装
 
-Docker
+**Docker**
 
 ```shell
 # 在主机上创建目录
@@ -59,10 +59,10 @@ docker run -d \
 
 **Mac**
 
-配置
 ```shell
 brew install Prometheus
-
+# 安装 node_exporter 以便 prometheus 抓取信息
+brew install node_exporter
 # 配置 prometheus.yml 运行
 mkdir -p ~/prometheus
 nano ~/prometheus/prometheus.yml
@@ -85,13 +85,75 @@ brew services start prometheus
  /opt/homebrew/etc/prometheus.yml
 ```
 
+## **配置 yml** 
 
+ 配置钱前可以访问 node exporter 的 http://localhost:9100/metrics 查看是否启动
+```
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+  # 采集node exporter监控数据
+  - job_name: 'node'
+    static_configs:
+      - targets: ['localhost:9100]
+```
 
-## 黑盒探测
+![prometheus_http](./prometheus_http.png)
 
-**Blackbox Exporter**
+# Grafana
 
+```shell
+# 下载
+brew install grafana
+# 配置 ini文件
+nano /opt/homebrew/etc/grafana/grafana.ini 
+```
 
+## init 文件配置 smtp 邮箱
+
+```ini
+[smtp]
+enabled = true
+host = smtp.126.com:465
+user = [邮箱]
+# If the password contains # or ; you have to wrap it with triple quotes. Ex """#password;"""
+password = [smtp密钥]
+;cert_file =
+;key_file =
+skip_verify = true
+from_address = [邮箱]
+from_name = Grafana
+# EHLO identity in SMTP dialog (defaults to instance_name)
+;ehlo_identity = dashboard.example.com
+# SMTP startTLS policy (defaults to 'OpportunisticStartTLS')
+;startTLS_policy = NoStartTLS
+# Enable trace propagation in e-mail headers, using the 'traceparent', 'tracestate' and (optionally) 'baggage' fields (defaults to false)
+enable_tracing = true
+```
+
+```shell
+# 拉起 Grafana
+brew services start grafana
+```
+
+## 登陆
+默认登陆账号/密码  admin/admin
+
+connections - prometheus - 填入相关配置URL 为安全也可以配置 Authentication
+
+## 测试邮件服务
+Alerting - contact points - Email - Test
+
+## 导入社区 Dashboards
+
+Dashboards - import
+
+![Dash](./Dash.png)
+
+## 用户管理 与 权限管理
+
+![accout](./accout.png)
 
 
 
@@ -101,3 +163,5 @@ brew services start prometheus
 
 1. [Prometheus 中文文档](https://www.prometheus.wang)
 1. [prometheus.io](https://prometheus.io/docs/introduction/overview/)
+1. [Grafana 官网教程](https://grafana.com/docs/grafana/latest/?utm_source=grafana_gettingstarted)
+
