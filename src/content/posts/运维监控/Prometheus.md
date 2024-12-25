@@ -149,11 +149,11 @@ Alerting - contact points - Email - Test
 
 Dashboards - import
 
-
+![dash](./dash.png)
 
 ## 用户管理 与 权限管理
 
-
+![accout](./accout.png)
 
 
 
