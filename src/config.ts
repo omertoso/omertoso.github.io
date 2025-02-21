@@ -60,11 +60,7 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:twitter',
       url: 'https://twitter.com',
     },
-    {
-      name: 'Zhihu',
-      icon: 'ant-design:zhihu-circle-filled',
-      url: 'https://twitter.com',
-    },
+
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',       // Visit https://icones.js.org/ for icon codes
