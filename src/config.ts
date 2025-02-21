@@ -56,11 +56,10 @@ export const profileConfig: ProfileConfig = {
   bio: 'Per aspera ad astra.',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
+      name: 'Zhihu',
+      icon: 'tabler:brand-zhihu',
+      url: 'https://www.zhihu.com/people/lu-san-er-yu-ling',
     },
-
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',       // Visit https://icones.js.org/ for icon codes
