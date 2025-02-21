@@ -57,7 +57,7 @@ export const profileConfig: ProfileConfig = {
   links: [
     {
       name: 'Zhihu',
-      icon: 'tabler:brand-zhihu',
+      icon: 'fa6-brands:zhihu',
       url: 'https://www.zhihu.com/people/lu-san-er-yu-ling',
     },
     {
